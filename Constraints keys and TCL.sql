@@ -57,6 +57,7 @@ update user_info set gender='female' where user_id='u105';
 delete from user_info where user_id='u101';
 
 rollback;
+
 commit;
 
 
